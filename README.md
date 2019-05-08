@@ -5,10 +5,12 @@ Udacity "Data Scientist" ND Project aimed to classify flower images into 102 cat
 In this project I have implemented transfer learning in pytorch using VGG16 deep network to classify flower images into 102 categories. As a result I got 88% accuracy on the test set.
 
 # Installations
-In order to run this project following libraries are required: torch, pil, pandas, numpy, matplotlib
+In order to run this project following libraries are required: torch, pil, pandas, numpy, matplotlib, json
 
 # Files
 **Image Classifier Project.ipynb** - jupyter notebook containing all project steps from image loading, transformation upon training to test the solution. THe resulting model is stored in the file (not included into this repository due to large size >25 MB).
+
+**cat_to_name.json** file containing dataset labels
 
 **train.py** - python Skript that performs training of the model and saves resulting model (can be executed from command line with set of input parameters, for details refer to a file)
 
